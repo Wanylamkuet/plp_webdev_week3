@@ -1,7 +1,4 @@
 
-/* ==========================================
-   0. GOOGLE FONTS & COLOR PALETTE VARIABLES
-   ========================================== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap');
 
 :root {
@@ -17,9 +14,7 @@
     --border-color: #cbd5e1;     /* Subtle card & table borders */
 }
 
-/* ==========================================
-   1. ELEMENT SELECTORS & TYPOGRAPHY
-   ========================================== */
+/
 *,
 *::before,
 *::after {
@@ -77,9 +72,7 @@ header p {
     font-size: 0.95rem;
 }
 
-/* ==========================================
-   2. ID SELECTORS (VISUAL CARDS - BOX MODEL)
-   ========================================== */
+
 /* Card 2: Add Expense Form Section */
 #add-expense-section {
     background-color: var(--bg-card);
@@ -102,9 +95,7 @@ header p {
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
 }
 
-/* ==========================================
-   3. EXPENSE TABLE STYLING
-   ========================================== */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -141,9 +132,7 @@ tbody tr:hover {
     transition: background-color 0.2s ease-in-out;
 }
 
-/* ==========================================
-   4. CLASS SELECTORS (FORMS & BUTTONS)
-   ========================================== */
+
 .form-group {
     margin-bottom: 16px;
 }
@@ -204,9 +193,7 @@ summary {
     cursor: pointer;
 }
 
-/* ==========================================
-   5. COMBINATORS & PSEUDO-CLASSES
-   ========================================== */
+
 /* 1. Descendant Selector (Supports both ID and Class) */
 #expenses-list-section td,
 .expenses-section td {
